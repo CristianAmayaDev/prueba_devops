@@ -14,7 +14,7 @@ app.use(express.json());
 // Ruta inicial
 app.get("/", (req, res) => {
     res.json({
-        mensaje: "API de Seguridad funcionando"
+        mensaje: "API de Seguridad funcionando full exitosa"
     });
 });
 
