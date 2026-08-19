@@ -92,8 +92,3 @@ practicar SAST, SCA y DAST:
 - **Divulgación de información**: la cabecera `X-Powered-By: Express` queda 
   expuesta por defecto.
 
-Estas fallas fueron detectadas y documentadas en los laboratorios de 
-seguridad (SAST con Semgrep, SCA con npm audit, DAST con OWASP ZAP).
-```
-
-¿Quieres que te lo cree directamente como archivo `README.md` descargable, o prefieres copiarlo tal cual desde aquí?
