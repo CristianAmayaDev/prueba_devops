@@ -1,9 +1,11 @@
-# prueba_devops  
-Con el código real, aquí tienes el README ajustado con precisión.
 
-## README.md
+
+## README.md bonito 
 
 ```markdown
+# Creacion del producto controller
+
+
 # API Seguridad — CRUD de Usuarios
 
 API REST construida con Node.js y Express para practicar pruebas de seguridad 
