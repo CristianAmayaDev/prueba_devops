@@ -2,6 +2,8 @@ const express = require("express");
 
 const usuariosRoutes =
     require("./routes/usuarios.routes");
+const productosRoutes =
+    require("./routes/productos.routes");
 
 const app = express();
 
@@ -23,6 +25,13 @@ app.use(
     "/api/usuarios",
     usuariosRoutes
 );
+
+// Rutas de productos
+app.use(
+    "/api/productos",
+    productosRoutes
+);
+
 app.post("/api/calcular", (req, res) => { const { expresion } = req.body; const resultado = eval(expresion); res.json({ resultado }); }); 
 // Iniciar servidor
 app.listen(PORT, () => {

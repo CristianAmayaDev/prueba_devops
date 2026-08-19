@@ -19,26 +19,6 @@ vulnerabilidades introducidas deliberadamente con fines académicos.
 - Nodemon (recarga automática en desarrollo)
 - Almacenamiento en memoria (array de usuarios, sin base de datos)
 
-## Estructura del proyecto
-
-```
-api-seguridad/
-├── node_modules/
-├── src/
-│   ├── controllers/
-│   │   └── usuarios.controller.js
-│   ├── data/
-│   │   └── usuarios.js
-│   ├── routes/
-│   │   └── usuarios.routes.js
-│   ├── services/
-│   │   └── usuarios.service.js
-│   └── app.js
-├── .gitignore
-├── package-lock.json
-├── package.json
-└── README.md
-```
 
 ## Cómo funciona
 
