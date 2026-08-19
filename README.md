@@ -25,9 +25,16 @@ code .
 
 Abre :D
 
-git checkout -b feature/Rama_de_Laura 
-git checkout es para ubicarlo en ese lugar
+--Para crear la rama ----git checkout -b feature/Rama_de_Laura 
+--Para ubicarlo en ese lugar ---git checkout 
 
 -- borra temporalmente el cambio ---- git stash
 -- obtiene la nueva rama------git pull origin main
 -- regresas los cambios que habias eliminado temporadamente ---- git stash pop
+-- Para llamar los cambios que se hicieron en el git main -----git pull origin main 
+
+---- Para subir en ramas ---
+ git add .                             
+ git commit -m "Creación de cátegorias"
+ git push origin feature/Rama_de_Laura
+ --Para llevarlo al main-- git pull origin main   ---No olvidar aceptar cambios en el main original
