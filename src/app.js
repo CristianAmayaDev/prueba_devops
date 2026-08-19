@@ -4,6 +4,8 @@ const usuariosRoutes =
     require("./routes/usuarios.routes");
 const productosRoutes =
     require("./routes/productos.routes");
+const pedidosRoutes =
+    require("./routes/pedidos.routes");
 
 const app = express();
 
@@ -30,6 +32,12 @@ app.use(
 app.use(
     "/api/productos",
     productosRoutes
+);
+
+// Rutas de pedidos
+app.use(
+    "/api/pedidos",
+    pedidosRoutes
 );
 
 app.post("/api/calcular", (req, res) => { const { expresion } = req.body; const resultado = eval(expresion); res.json({ resultado }); }); 
